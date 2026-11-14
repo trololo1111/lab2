@@ -1,0 +1,81 @@
+{
+  "titanic": {
+    "row_count": 891,
+    "missing_by_column": {
+      "PassengerId": 0,
+      "Survived": 0,
+      "Pclass": 0,
+      "Name": 0,
+      "Sex": 0,
+      "Age": 177,
+      "SibSp": 0,
+      "Parch": 0,
+      "Ticket": 0,
+      "Fare": 0,
+      "Cabin": 687,
+      "Embarked": 2
+    },
+    "adults_over_30_count": 305,
+    "mean_age_by_pclass": {
+      "1": 38.233440860215055,
+      "2": 29.87763005780347,
+      "3": 25.14061971830986
+    },
+    "survival_rate_by_pclass": {
+      "1": 0.6296296296296297,
+      "2": 0.47282608695652173,
+      "3": 0.24236252545824846
+    },
+    "highest_fares": [
+      512.3292,
+      512.3292,
+      512.3292,
+      263.0,
+      263.0
+    ]
+  },
+  "brain": {
+    "men_count": 20,
+    "women_count": 20,
+    "women_mri_correlation": {
+      "FSIQ": 0.32569670049637045,
+      "VIQ": 0.2549328529614766,
+      "PIQ": 0.39615716686847646,
+      "Weight": 0.44627135266164303,
+      "Height": 0.1745410472880982
+    },
+    "men_mri_correlation": {
+      "FSIQ": 0.4983691104171926,
+      "VIQ": 0.4131049601428286,
+      "PIQ": 0.5682370032144156,
+      "Weight": -0.07687464371333165,
+      "Height": 0.3015430401770577
+    },
+    "strongest_mri_feature": "PIQ"
+  },
+  "brain_missing_by_column": {
+    "Gender": 0,
+    "FSIQ": 0,
+    "VIQ": 0,
+    "PIQ": 0,
+    "Weight": 2,
+    "Height": 1,
+    "MRI_Count": 0
+  },
+  "pair_counts": {
+    "Female": {
+      "FSIQ": 20,
+      "VIQ": 20,
+      "PIQ": 20,
+      "Weight": 20,
+      "Height": 20
+    },
+    "Male": {
+      "FSIQ": 20,
+      "VIQ": 20,
+      "PIQ": 20,
+      "Weight": 18,
+      "Height": 19
+    }
+  }
+}
